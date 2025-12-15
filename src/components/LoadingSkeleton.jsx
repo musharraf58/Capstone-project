@@ -1,0 +1,1 @@
+// LoadingSkeleton.jsx - Loading placeholder component

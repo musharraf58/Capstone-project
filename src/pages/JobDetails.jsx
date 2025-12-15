@@ -1,1 +1,1 @@
-
+// JobDetails.jsx - Single job view page

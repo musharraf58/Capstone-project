@@ -1,0 +1,1 @@
+// JobCard.jsx - Job card component

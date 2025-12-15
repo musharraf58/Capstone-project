@@ -1,1 +1,1 @@
-
+// Dashboard.jsx - Application management page

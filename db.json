@@ -1,0 +1,17 @@
+{
+  "applications": [
+    {
+      "id": "1",
+      "jobId": 12345,
+      "title": "Senior Frontend Developer",
+      "company": "Tech Corp",
+      "location": "Remote",
+      "salary": "$120k - $150k",
+      "category": "Software Development",
+      "url": "https://remotive.com/remote-jobs/software-dev/senior-frontend-developer-12345",
+      "status": "saved",
+      "savedAt": "2025-12-14T10:30:00.000Z",
+      "notes": ""
+    }
+  ]
+}

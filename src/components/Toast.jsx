@@ -49,7 +49,7 @@ const Toast = ({ message, type = 'success', onClose, duration = 3000 }) => {
 
   return (
     <div
-      className={`fixed top-4 right-4 flex items-center gap-3 px-4 py-3 rounded-lg shadow-lg border ${getBackgroundColor()} animate-slide-in z-50`}
+      className={`fixed top-4 right-4 flex items-center gap-3 px-4 py-3 rounded-lg shadow-lg border ${getBackgroundColor()} transition-all duration-300 ease-in-out z-50`}
       role="alert"
     >
       {getIcon()}

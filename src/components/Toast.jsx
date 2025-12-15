@@ -51,6 +51,7 @@ const Toast = ({ message, type = 'success', onClose, duration = 3000 }) => {
     <div
       className={`fixed top-4 right-4 flex items-center gap-3 px-4 py-3 rounded-lg shadow-lg border ${getBackgroundColor()} transition-all duration-300 ease-in-out z-50`}
       role="alert"
+      aria-live="polite"
     >
       {getIcon()}
       <p className="text-gray-900 font-medium">{message}</p>

@@ -55,7 +55,7 @@ const JobCard = ({ job, onSave, onClick, isSaved = false }) => {
         <div className="flex items-center gap-2">
           <Calendar size={16} />
           <span>
-            Posted: {new Date(job.publication_date).toLocaleDateString()}
+            Posted: {job.publication_date ? new Date(job.publication_date).toLocaleDateString() : 'Date not available'}
           </span>
         </div>
       </div>

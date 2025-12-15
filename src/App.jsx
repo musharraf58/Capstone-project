@@ -1,0 +1,1 @@
+// App.jsx - Main application component with routing
